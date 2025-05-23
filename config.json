@@ -1,0 +1,8 @@
+{
+    "port": "80",
+    "data_path": "",
+    "log_path": "",
+    "enable_tls": false,
+    "cert_file": "",
+    "key_file": ""
+}
