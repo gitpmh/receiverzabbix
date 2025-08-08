@@ -14,5 +14,5 @@ jobs:
       - name: Build and run app
         run: |
           go build -o Receiver-APP
-          sudo pkill -f Example_interface || true
-          nohup ./Receiver-APP > app.log 2>&1 &
+          sudo pkill -f Receiver-APP || true
+          sudo ./Receiver-APP > app.log 2>&1 &
