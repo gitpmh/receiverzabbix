@@ -13,6 +13,6 @@ jobs:
 
       - name: Build and run app
         run: |
-          go build -o Example_interface
-          pkill -f Example_interface || true
-          nohup ./Example_interface > app.log 2>&1 &
+          go build -o Receiver-APP
+          sudo pkill -f Example_interface || true
+          nohup ./Receiver-APP > app.log 2>&1 &
